@@ -136,6 +136,7 @@ body {
 }
 /* Команда */
 .main-team-content {
+  background: #f5f4fa;
 }
 
 .main-team-img {
@@ -158,6 +159,9 @@ body {
   color: #757575;
 }
 
+.footer {
+  background: #2f303a;
+}
 /* Portfolio */
 .header-portfolio.activ {
   color: #2196f3;
