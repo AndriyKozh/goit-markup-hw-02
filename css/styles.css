@@ -2,7 +2,7 @@
   --accent-color: #2196f3;
 }
 body {
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: #212121;
 }
 /*Шапка сайта*/
@@ -16,7 +16,7 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
@@ -29,7 +29,7 @@ body {
 .header-info {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
 }
@@ -49,7 +49,7 @@ body {
 .contakt {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
 }
@@ -80,7 +80,7 @@ body {
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.38;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -88,9 +88,10 @@ body {
 }
 
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -110,7 +111,7 @@ body {
 .mine-benefits-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -118,7 +119,7 @@ body {
 .mine-benefits-text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -129,7 +130,7 @@ body {
 .main-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .main-work-img {
@@ -141,20 +142,20 @@ body {
 
 .main-team-img {
 }
-.main-team {
+.main-team-content {
 }
 
 .main-team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
 .main-team-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -177,11 +178,12 @@ body {
 }
 
 .portfolio-button button {
+  font-family: Roboto, sans-serif;
   background: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -206,13 +208,13 @@ body {
 .portfolio-content-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-content-list {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
